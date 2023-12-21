@@ -148,7 +148,7 @@ docker run --rm -it \
 ### 4. Start VmAgent & Grafana
 
 ```bash
-docker compose up -d grafana vmagent
+docker compose up -d grafana victoriametrics vmagent
 ```
 
 After executing those commands, you should have running Grafana interface under [127.0.0.1:3001](http://127.0.0.1:3001)
