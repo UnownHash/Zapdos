@@ -135,6 +135,7 @@ docker compose up -d victoriametrics
 
 - Consider running it inside screen/tmux as this process might take a while!
 - It might be wise to stop prometheus before running migration.
+- Remember to uncomment & set user/pass if you used it in victoriametrics
 
 ```bash
 docker run --rm -it \
