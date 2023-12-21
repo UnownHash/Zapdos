@@ -142,7 +142,7 @@ docker run --rm -it \
   --network docker_default \
   -v ~/docker/prometheus/data:/prometheus \
   victoriametrics/vmctl \
-  prometheus --prom-snapshot=/prometheus --vm-addr http://victoriametrics:8428
+  prometheus --prom-snapshot=/prometheus --vm-addr http://victoriametrics:8428 # --vm-user CHANGEME --vm-password CHANGEME
 ```
 
 ### 4. Start VmAgent & Grafana
