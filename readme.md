@@ -99,6 +99,7 @@ Inside `~/docker/vmagent/prometheus.yml` file create scrapping configuration.
 - If you added auth in VM configuration, be sure to fill them in there as well.
 
 ```yml
+# prometheus.yml
 global:
   scrape_interval: 30s
 
