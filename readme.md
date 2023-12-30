@@ -162,7 +162,7 @@ Set a new password for your user and if you want edit your user details under [/
 
 Under [/connections/datasources/new](http://127.0.0.1:3001/connections/datasources/new) you have to add a new source pointing to VictoriaMetrics TSDB. If you added auth in VM configuration, be sure to fill them in there as well.
 
-From a list of sources pick Prometheus, use `http://victoriametrics:8428` and click `Save & Test`
+From a list of sources pick Prometheus (no, you don't need VictoriaMetrics plugin) and use `http://victoriametrics:8428` as URL. After that just click `Save & Test`
 
 ### 5. Import dashboards
 
